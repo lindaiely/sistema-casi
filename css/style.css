@@ -45,7 +45,7 @@ body, html{
     text-align: justify;
     color: #fff;
 }
-.w-50 a{
+#button{
     text-decoration: none;
     color: #fff;
     background-color: #9142EA;
@@ -79,6 +79,63 @@ body, html{
     grid-area: conteudo;
     background-color: #191222;
 }
+.eventos{
+    width: 60%;
+    margin: 3rem auto 6rem auto;
+}
+#img{
+    width: 100%;
+    margin: 2rem 0;
+}
+.eventos h1{
+    color: #fff;
+}
+.event p{
+    text-align: justify;
+    margin: 0 auto 3rem auto;
+    width: 95%;
+    color: #fff;
+}
+.event a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #9142EA;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.clear{
+    clear: both;
+}
+.casi{
+    width: 60%;
+    color: #fff;
+    text-align: justify;
+    margin: 4rem auto;
+}
+.casi p{
+    margin-bottom: 5rem;
+}
+.casi h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.diretoria{
+    margin: 4rem 0;
+
+}
+.diretorias h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.w-50-diretoria{
+    text-align: center;
+    float: left;
+    width: calc(100% / 2);
+}
 .rodape{
     grid-area: rodape;
     background-color: #17042C;
@@ -96,4 +153,5 @@ body, html{
 .social a{
     font-size: 1.5rem;
     padding: 0.3rem;
+    color: #fff;
 }
