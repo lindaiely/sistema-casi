@@ -16,6 +16,5 @@
             <a href="casi.php">CASI</a>
             <a href="noticias.php">NOTICIAS</a>
             <a href="transparencia.php">TRANSPARÊNCIA</a>
-            <a href="contato.php">CONTATO</a>
         </nav>
         <section class="conteudo">
