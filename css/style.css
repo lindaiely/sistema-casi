@@ -194,7 +194,6 @@ div #titulo-not{
 }
 .center{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -204,6 +203,32 @@ div #titulo-not{
 }
 #c-login p{
     margin: 0;
+}
+.transparencia{
+    width: 60%;
+    margin: auto;
+}
+.transparencia h1{
+    text-align: center;
+    margin: 2rem;
+}
+.mytable{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+.mytable th, .mytable td{
+    border: 1px solid #CDA4FC;
+    padding: 0.7rem;
+}
+.td-color{
+    background-color: #584a68;
+}
+
+.td-color2{
+    background-color: #4b3a5f;
 }
 .rodape{
     grid-area: rodape;
