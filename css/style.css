@@ -38,8 +38,14 @@ h1{
     padding: 1.5rem;
     border-bottom: 1px solid #CDA4FC;
 }
-#titulo-not{
-    text-align: center;
+div #titulo-not{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #CDA4FC;
 }
 .w-50 p{
     width: 70%;
@@ -82,19 +88,19 @@ h1{
     grid-area: conteudo;
     background-color: #191222;
 }
-/*
 .noticia{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-/*
+    margin: 3rem 0 5rem 0;
+}
 .noticia-class{
     display: flex;
     margin: auto;
-    float: left;
     width: calc(100% / 2);
-}*/
+}
+.noticia-class p{
+    text-align: justify;
+    padding: 0 0 0 3rem;
+    color: #fff;
+}
 .eventos{
     width: 60%;
     margin: 3rem auto 6rem auto;
